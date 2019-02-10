@@ -1,88 +1,57 @@
-# Project Title
+# Find the Celebrity - Project
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project was created to implement the algorithm "Find the celebrity".
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+* JDK 8
+* IDE (Eclipse)
+* Application server (The Tomcat 9 server was used)
 
+## Installing and Deployment
+
+* You can clone the project or download the sources as a ZIP.
+* Open the IDE.
+* Click on the "File" option and then click on Import ==> Existing Maven Project. Select the project.
+* In the IDE, Right click on the project Run as ==> Run on Server.
+* Configure the application server to run the project.
+* In the browser, open the URL http://localhost:8080/find-the-celebrity/search/celebrity (The port depends on the port configured in the application server).
+
+## How to use the application?
+
+* First you need to create a file in Text/Plain format.
+* You must enter in the file the names of a group of people. Example:
 ```
-Give examples
+input.txt
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+Annie
+Bob
+Marc 
+Kathy
 ```
-
-And repeat
-
+* Upload the file and then click in the "Find the celebrity" button.
+* A page with the name and id of the celebrity and also the matrix of responses will be displayed.
+* If you want to upload another group of people and find the celebrity, you can click on the "Try Again" button.
+* Supposed and rules: (You can also see them on the home page) 
 ```
-until finished
+Supposed
+
+- There is always a celebrity in the group of people.
+
+Rules
+
+- Not allowed empty files.
+- File lines with more than 15 characters or empty will be omitted.
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Spring 5
+* Bootstrap
+* Maven
 
-## Contributing
+## Author
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [moniviru](https://github.com/moniviru)
 
