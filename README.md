@@ -13,7 +13,8 @@ This project was created to implement the algorithm "Find the celebrity".
 * You can clone the project or download the sources as a ZIP.
 * Open the IDE.
 * Click on the "File" option and then click on Import ==> Existing Maven Project. Select the project.
-* In the IDE, Right click on the project Run as ==> Run on Server.
+* In the IDE, right click on the project Run as ==> Maven Install.
+* After that, right click on the project Run as ==> Run on Server.
 * Configure the application server to run the project.
 * In the browser, open the URL http://localhost:8080/find-the-celebrity/search/celebrity (The port depends on the port configured in the application server).
 
