@@ -20,10 +20,10 @@ This project was created to implement the algorithm "Find the celebrity".
 ## How to use the application?
 
 * First you need to create a file in Text/Plain format.
-* You must enter in the file the names of a group of people. Example:
 ```
 input.txt
 ```
+* You must enter in the file the names of a group of people. Example:
 ```
 Annie
 Bob
